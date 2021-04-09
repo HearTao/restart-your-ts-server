@@ -9,7 +9,7 @@
     "vscode": "^1.41.0"
   },
   "version": "0.0.2",
-  "repository": "git@github.com:HearTao/restart-your-ts-server.git",
+  "repository": "https://github.com/HearTao/restart-your-ts-server.git",
   "author": "kingwenlu@gmail.com",
   "license": "MIT",
   "categories": [
