@@ -8,7 +8,7 @@
   "engines": {
     "vscode": "^1.41.0"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "https://github.com/HearTao/restart-your-ts-server.git",
   "author": "kingwenlu@gmail.com",
   "license": "MIT",
