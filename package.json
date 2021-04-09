@@ -1,0 +1,50 @@
+{
+  "name": "restart-your-ts-server",
+  "displayName": "Restart Your TS Server",
+  "main": "./index.js",
+  "icon": "logo.png",
+  "description": "Restart your TS server by touch bar with only one key.",
+  "publisher": "kingwl",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "version": "0.0.1",
+  "repository": "git@github.com:HearTao/restart-your-ts-server.git",
+  "author": "kingwenlu@gmail.com",
+  "license": "MIT",
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "keywords": [
+    "typescript"
+  ],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact",
+    "workspaceContains:**/tsconfig.json",
+    "workspaceContains:**/jsconfig.json"
+  ],
+  "extensionDependencies": [
+      "vscode.typescript"
+  ],
+  "contributes": {
+    "menus": {
+      "touchBar": [
+        {
+          "command": "typescript.restartTsServer",
+          "title": "Restart TS server",
+          "category": "TypeScript"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "vsce": "^1.87.1"
+  },
+  "scripts": {
+    "build": "vsce package"
+  }
+}

@@ -1,0 +1,2 @@
+// dummy main
+module.exports = {}

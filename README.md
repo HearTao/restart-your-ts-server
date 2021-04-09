@@ -1,2 +1,3 @@
 # restart-your-ts-server
-Restart your ts server by touch bar
+
+Restart your TS server by touch bar with only one key. Build with ❤️.
