@@ -3,7 +3,7 @@
   "displayName": "Restart Your TS Server",
   "main": "./index.js",
   "icon": "logo.png",
-  "description": "Restart your TS server by touch bar with only one key.",
+  "description": "Restart your TS server by touchbar with only one key.",
   "publisher": "kingwl",
   "engines": {
     "vscode": "^1.41.0"
@@ -23,9 +23,7 @@
     "onLanguage:javascript",
     "onLanguage:javascriptreact",
     "onLanguage:typescript",
-    "onLanguage:typescriptreact",
-    "workspaceContains:**/tsconfig.json",
-    "workspaceContains:**/jsconfig.json"
+    "onLanguage:typescriptreact"
   ],
   "extensionDependencies": [
       "vscode.typescript"
